@@ -5,8 +5,8 @@ function* generateSalaryWithBonus(halfSalary) {
     yield salary + (salary/100) * 15
     yield salary + (salary/100) * 20
     yield salary + (salary/100) * 25
-    // yield salary + (salary/100) * 30
-    return salary + (salary/100) * 30
+    yield salary + (salary/100) * 30
+    // return salary + (salary/100) * 30
 }
 
 const generator = generateSalaryWithBonus(1000)
