@@ -21,18 +21,18 @@
 
 // eventloop
 
-console.log('start')
-
-setTimeout(function () {
-    console.log('timeout 1')
-}, 0)
-
-setTimeout(function (){
-    console.log('timeout 2')
-}, 0)
-
-setTimeout(function (){
-    console.log('timeout 3')
-}, 0)
-
-console.log('end')
+// console.log('start')
+//
+// setTimeout(function () {
+//     console.log('timeout 1')
+// }, 0)
+//
+// setTimeout(function (){
+//     console.log('timeout 2')
+// }, 0)
+//
+// setTimeout(function (){
+//     console.log('timeout 3')
+// }, 0)
+//
+// console.log('end')
